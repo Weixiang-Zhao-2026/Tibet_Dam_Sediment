@@ -1,0 +1,104 @@
+{
+ "indus": {
+  "n": 40,
+  "lam": 0.336,
+  "lam_se": 0.167,
+  "m": 0.86,
+  "B0": 36.65449497622228,
+  "R2": 0.15,
+  "RMSE": 19.689678948887416,
+  "meanSout": 47.901025000000004,
+  "AICc": 247.6,
+  "AICc_noInflow": 249.2,
+  "AICc_inflowOnly": 246.1,
+  "corr_lam_m": -0.1,
+  "corr_lam_lnB0": -0.86,
+  "loo": [
+   0.259,
+   0.337,
+   0.389
+  ],
+  "first_half": 0.461,
+  "second_half": 0.13,
+  "boot_L1": [
+   0.06,
+   0.35,
+   0.68
+  ],
+  "boot_L2": [
+   -0.0,
+   0.34,
+   0.64
+  ],
+  "boot_L3": [
+   -0.02,
+   0.32,
+   0.6
+  ],
+  "boot_L4": [
+   -0.04,
+   0.3,
+   0.61
+  ],
+  "boot_L5": [
+   -0.05,
+   0.27,
+   0.58
+  ]
+ },
+ "residuals": {
+  "n": 11,
+  "median_abs_R": 0.17,
+  "n_absR_lt_0p2": 6,
+  "n_absR_lt_0p3": 6,
+  "median_R": -0.1,
+  "R": [
+   {
+    "station": "Jiuzhou",
+    "Ri": -0.11
+   },
+   {
+    "station": "Changmabao",
+    "Ri": -0.17
+   },
+   {
+    "station": "Panjiazhuang",
+    "Ri": 0.46
+   },
+   {
+    "station": "Kaqun",
+    "Ri": 0.05
+   },
+   {
+    "station": "Tongguziluoke",
+    "Ri": -0.17
+   },
+   {
+    "station": "Xindahe",
+    "Ri": -0.1
+   },
+   {
+    "station": "Yanqi",
+    "Ri": -0.6
+   },
+   {
+    "station": "Daojieba",
+    "Ri": 0.34
+   },
+   {
+    "station": "Lhasa",
+    "Ri": 0.38
+   },
+   {
+    "station": "Nuxia",
+    "Ri": -0.1
+   },
+   {
+    "station": "Dainyor",
+    "Ri": -0.78
+   }
+  ],
+  "median_abs_dlnS": 0.36,
+  "n_sig": null
+ }
+}

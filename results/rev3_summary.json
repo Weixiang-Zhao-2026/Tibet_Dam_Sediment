@@ -1,0 +1,36 @@
+{
+ "VIF_T_max": 1.52,
+ "VIF_T_med": 1.09,
+ "MDE_med": 0.255,
+ "MDE_range": [
+  0.11,
+  0.723
+ ],
+ "n_Tlag_sig": 2,
+ "n_T3_sig": 5,
+ "n_trend_pos": 1,
+ "n_trend_neg": 5,
+ "n_lagQ_neg_sig": 2,
+ "n_lagQ_pos_sig": 2,
+ "b_med": 2.29,
+ "bdiff_med": 2.34,
+ "b5_med": 2.37,
+ "thr0.3": {
+  "n": 11,
+  "b_med": 2.29,
+  "cT_detect": 2,
+  "hydP_over_totP_med": 0.92
+ },
+ "thr0.5": {
+  "n": 8,
+  "b_med": 2.33,
+  "cT_detect": 1,
+  "hydP_over_totP_med": 0.92
+ },
+ "thr0.7": {
+  "n": 4,
+  "b_med": 2.28,
+  "cT_detect": 1,
+  "hydP_over_totP_med": 0.93
+ }
+}

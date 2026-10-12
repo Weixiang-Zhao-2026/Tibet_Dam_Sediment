@@ -1,0 +1,129 @@
+{
+ "whole": {
+  "cal": {
+   "lam": 0.961,
+   "lam_se": 0.092,
+   "tau": 29.6,
+   "m": 1.22,
+   "AICc": 71.4
+  },
+  "cum": {
+   "lam": 0.969,
+   "lam_se": 0.084,
+   "tauF": 29.9,
+   "m": 1.21,
+   "AICc": 71.2
+  }
+ },
+ "upper": {
+  "cal": {
+   "lam": 1.031,
+   "lam_se": 0.059,
+   "tau": 14.8,
+   "m": 1.95,
+   "AICc": 50.1
+  },
+  "cum": {
+   "lam": 1.033,
+   "lam_se": 0.051,
+   "tauF": 14.3,
+   "m": 2.09,
+   "AICc": 49.2
+  }
+ },
+ "lower": {
+  "cal": {
+   "lam": 0.881,
+   "lam_se": 0.109,
+   "tau": 45.2,
+   "m": 1.16,
+   "AICc": 74.3
+  },
+  "cum": {
+   "lam": 0.887,
+   "lam_se": 0.101,
+   "tauF": 47.3,
+   "m": 1.13,
+   "AICc": 74.3
+  }
+ },
+ "indus": {
+  "lam": 0.336,
+  "lam_se": 0.167
+ },
+ "boot": {
+  "lam_whole": [
+   0.77,
+   0.98,
+   1.2
+  ],
+  "lam_indus": [
+   -0.02,
+   0.32,
+   0.6
+  ],
+  "dlam": [
+   0.29,
+   0.66,
+   1.07
+  ],
+  "p_one_sided": 0.001,
+  "p_two": 0.002
+ },
+ "z": 3.28,
+ "cross": {
+  "n": 11,
+  "corr_pred_obs": 0.81,
+  "rmse": 0.417,
+  "mean_obs": 0.054,
+  "mean_pred": 0.137,
+  "median_r_annual": 0.83,
+  "n_r_sig": 10,
+  "resid": [
+   {
+    "station": "Jiuzhou",
+    "res": -0.12
+   },
+   {
+    "station": "Changmabao",
+    "res": -0.26
+   },
+   {
+    "station": "Panjiazhuang",
+    "res": 0.48
+   },
+   {
+    "station": "Kaqun",
+    "res": 0.08
+   },
+   {
+    "station": "Tongguziluoke",
+    "res": -0.11
+   },
+   {
+    "station": "Xindahe",
+    "res": -0.07
+   },
+   {
+    "station": "Yanqi",
+    "res": -0.54
+   },
+   {
+    "station": "Daojieba",
+    "res": 0.35
+   },
+   {
+    "station": "Lhasa",
+    "res": 0.38
+   },
+   {
+    "station": "Nuxia",
+    "res": -0.09
+   },
+   {
+    "station": "Dainyor",
+    "res": -1.01
+   }
+  ]
+ }
+}

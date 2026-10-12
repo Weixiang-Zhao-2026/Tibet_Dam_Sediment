@@ -1,0 +1,65 @@
+{
+ "whole": {
+  "betaS": 0.506,
+  "se": 0.035,
+  "betaS_trend": 0.38,
+  "se_t": 0.048,
+  "corr_lnQ_lnSin": 0.36,
+  "ratio_of_means": 0.5,
+  "mean_ratio": 0.41,
+  "median_ratio": 0.47,
+  "ratio_range": [
+   0.17,
+   0.71
+  ],
+  "lam": 0.96,
+  "lam_se": 0.09,
+  "B0": 50.1,
+  "m": 1.22,
+  "tau": 29.6,
+  "implied_mean_elasticity": 0.4,
+  "corr_J_Sin": 0.65
+ },
+ "upper": {
+  "betaS": 0.763,
+  "se": 0.065,
+  "betaS_trend": 0.553,
+  "se_t": 0.039,
+  "corr_lnQ_lnSin": 0.36,
+  "ratio_of_means": 0.7,
+  "mean_ratio": 0.62,
+  "median_ratio": 0.69,
+  "ratio_range": [
+   0.31,
+   0.81
+  ],
+  "lam": 1.03,
+  "lam_se": 0.06,
+  "B0": 25.3,
+  "m": 1.95,
+  "tau": 14.8,
+  "implied_mean_elasticity": 0.63,
+  "corr_J_Sin": 0.85
+ },
+ "lower": {
+  "betaS": 0.631,
+  "se": 0.037,
+  "betaS_trend": 0.595,
+  "se_t": 0.112,
+  "corr_lnQ_lnSin": 0.35,
+  "ratio_of_means": 0.68,
+  "mean_ratio": 0.62,
+  "median_ratio": 0.63,
+  "ratio_range": [
+   0.31,
+   0.9
+  ],
+  "lam": 0.88,
+  "lam_se": 0.11,
+  "B0": 31.5,
+  "m": 1.16,
+  "tau": 45.2,
+  "implied_mean_elasticity": 0.54,
+  "corr_J_Sin": -0.11
+ }
+}
